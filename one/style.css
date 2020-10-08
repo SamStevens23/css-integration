@@ -1,0 +1,182 @@
+/* INTERFACE ONE */
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 30px;
+
+    justify-items: center;
+
+    border: solid black;
+
+    height: 400px;
+    width: 1100px;
+
+    padding-left: 70px;
+    padding-right: 20px;
+
+    margin-bottom: 50px;
+}
+
+.container > h2 {
+    color: #7ABF8C;
+}
+
+.grunt {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gulp {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hooks {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.npm {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* INTERFACE TWO */
+
+.card {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+
+    width: 350px;
+    height:600px;
+
+    padding-bottom: 20px;
+
+    background-color: #4992F2;
+    color:#F2F2F2;
+
+    font-family: 'Noto Sans JP', sans-serif;
+
+    border-radius: 1%;
+
+    margin-bottom: 50px;
+}
+  
+ 
+
+.graph {
+    max-width:100%;
+    max-height:100%;
+}
+
+.container2 {
+    padding: 2px 16px;
+  }
+
+  hr {
+      color: #F2F2F2;
+      margin-left: 2px;
+      margin-right: 2px;
+      margin-top: 0px;
+      
+  }
+
+
+table th, table td {
+    padding: 10px;
+    column-gap: 30px;
+}
+
+th {
+    text-align: justify;
+}
+
+
+h5 {
+    margin-bottom: 0px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+/* INTERFACE THREE */
+
+
+.container3 {
+    display: flex;
+
+    width: 496px;
+    height: 265px;
+
+    padding: 0;
+    
+    border: solid black;
+
+    font-family: 'Cabin Condensed', sans-serif;
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.field {
+    width: 165px;
+    height: 265px;
+
+}
+
+.josiah {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+.text {
+    padding: 15px;
+    font-family: 'Cabin Condensed', sans-serif;
+  
+}
+
+.title > h2 {
+    color: black;
+}
+
+.title > p {
+    color: lightslategray;
+    
+}
+
+.avatar {
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.what {
+    line-height: 1px;
+    font-family: 'Cabin Condensed', sans-serif;
+    
+}
+
+.what > h4 {
+    color: black;
+}
+
+.what > p {
+    color: lightslategray;
+}
+
+.bookmark {
+    width: 30px;
+    height: 30px;
+   
+}
