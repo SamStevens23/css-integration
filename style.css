@@ -20,9 +20,10 @@
     margin-bottom: 50px;
 }
 
-.container > h2 {
+.grunt > h2, .gulp > h2, .hooks > h2, .npm > h2 {
     color: #7ABF8C;
 }
+
 
 .grunt {
     grid-column-start: 1;
