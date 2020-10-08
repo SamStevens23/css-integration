@@ -1,0 +1,51 @@
+.body {
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+.container {
+    display: flex;
+   width: 496px;
+   height: 265px;
+    padding: 0;
+    margin: 0;
+    border: solid black;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+img {
+    width: 165px;
+    height: 265px;
+
+}
+
+.josiah {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+.text {
+    padding: 15px;
+    font-family: 'Cabin Condensed', sans-serif;
+    
+}
+
+.avatar {
+    width: 50px;
+    height: 60px;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.what {
+    line-height: 1px;
+    font-family: 'Cabin Condensed', sans-serif;
+    
+}
+
+.bookmark {
+    width: 30px;
+    height: 30px;
+   
+}
