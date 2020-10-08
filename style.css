@@ -1,0 +1,33 @@
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    column-gap: 5px;
+    justify-items: center;
+
+}
+
+.grunt {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.gulp {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.hooks {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.npm {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
